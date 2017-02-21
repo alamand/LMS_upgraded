@@ -9,7 +9,7 @@ namespace LeaveSystemMVC.Models
     public class aDepartment
     {
 
-        public string existingDepartmentName { get; set; } //used to display existing department names in view so please please please do not delete
+        public string existingDepartmentName { get; set; } //used to display existing department names in view so do not delete
         public string departmentName { get; set; }
         public string departmentID { get; set; } //not required not being used in view or controller.. delete at your own risk
         public string primaryLMID { get; set; } //holds employee ID of the primary line manager
